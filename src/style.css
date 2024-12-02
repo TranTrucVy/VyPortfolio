@@ -616,6 +616,8 @@ button:focus {
   color: white !important;
 }
 
+
+
 .resume {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -629,6 +631,9 @@ button:focus {
 .resume-right {
   padding-left: 80px !important;
 }
+
+
+
 
 @media (max-width: 767px) {
   .resume-left {
