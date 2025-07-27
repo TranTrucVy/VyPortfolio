@@ -10,9 +10,16 @@ import suicide from "../../Assets/Projects/suicide.png";
 // import bitsOfCode from "../../Assets/Projects/blog.png";
 import erp from "../../Assets/Projects//erp.png"
 import tingle from "../../Assets/Projects//tingle.png"
+import crm from "../../Assets/Projects//crm.png"
 import digital from "../../Assets/Projects//digital.png"
 import fansome from "../../Assets/Projects//fansome.png"
+import dataquery from "../../Assets/Projects//data.png"
+import product_finviet from "../../Assets/Projects//product_finviet.png"
+import product_hitek from "../../Assets/Projects//product_hitek.png"
 import product from "../../Assets/Projects//product.png"
+import econguoitieudung from "../../Assets/Projects//econguoitieudung.png"
+import ecofinviet from "../../Assets/Projects//ecofinviet.png"
+import ecotiemsohoa from "../../Assets/Projects//ecotiemsohoa.png"
 
 
 function Projects() {
@@ -30,7 +37,18 @@ function Projects() {
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col md={12} className="text-center">
             <img
-              src={product}
+              src={product_finviet}
+              alt="New Image"
+              className="img-fluid"
+              style={{ maxWidth: "100%", height: "auto" }}
+            />
+          </Col>
+        </Row>
+
+        <Row style={{ justifyContent: "center", padding: "10px" }}>
+          <Col md={12} className="text-center">
+            <img
+              src={product_hitek}
               alt="New Image"
               className="img-fluid"
               style={{ maxWidth: "100%", height: "auto" }}
@@ -44,6 +62,93 @@ function Projects() {
         </h1>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+
+        <Col md={12} className="project-card">
+            <ProjectCard
+              imgPath={crm}
+              title="CRM/ Admin Portal"
+              description={`Customer Management
+                ▸Customer Information: Manage general customer profiles and data.
+                ▸Store Management: Manage merchant/store accounts and business details.
+                ▸Consumer Management: View and manage end-user information.
+                ▸E-Invoice Customers: List and manage customers using electronic invoices.
+                ▸Customer Segmentation: Classify customers based on demographics, behavior, or transaction volume.
+              Operations
+                ▸E-Invoice Package Approval: Review and approve e-invoice subscription requests.
+                ▸Sales Information Approval: Validate and approve submitted sales data.
+                ▸Store Information Approval: Review and verify details of merchant registration and store profiles.
+              Marketing
+                ▸Referral Program: Manage customer referral campaigns and reward programs.
+                ▸EXU Back (Advertisement Module): Handle marketing banners, in-app ads, and campaign configurations.
+              Reconciliation
+                ▸Consumer Transactions: Review and verify consumer-side transaction records.
+                ▸Reconciliation Module: Support backend reconciliation processes with logs and summaries.
+              Settings
+                ▸Global Settings: Configure system-wide parameters and operational rules.
+                ▸Administrative Units: Manage provinces, districts, wards, and other administrative data.
+              Reporting & History
+                ▸System History: Log and display user/system activities.
+                ▸Introduction Data: Track referral or marketing registration flows.
+                ▸Store Reports: Generate performance reports and transactional overviews for stores.
+                ▸Consumer Reports: Track user behavior and engagement trends.
+                ▸EXU Back Orders: Reports for in-app product or service orders triggered by marketing ads.
+                ▸E-Invoice Reports: Analyze issued and used e-invoices.
+                ▸B2B Reports: Overview of business-to-business transactions.
+
+                • Teamsize: 1 PM, 1PO, 1 Techlead, 6 BA, 1 Design, 5 Dev, 2 QC
+              `}
+              webLink="https://play.google.com/store/apps/details?id=com.simtalk.livemate&hl=en&gl=US"
+            />
+          </Col>
+
+          <Col md={12} className="text-center">
+            <img
+              src={dataquery}
+              alt="New Image"
+              className="img-fluid"
+              style={{ maxWidth: "100%", height: "auto" }}
+            />
+          </Col>
+
+
+        <Col md={12} className="project-card">
+            <ProjectCard
+              imgPath={ecofinviet}
+              title="Public product of Finviet Technology"
+              description={`ECO Consumer App
+                ▸ Application for end-users
+                ▸ Supports bill payments, mobile top-ups, online shopping, cashback, and promotions
+
+                ECO Merchant App (Tiệm Số Hóa)
+                ▸ Store management tool for small shop owners
+                ▸ Functions include inventory purchasing, service payments, micro-loans, and sales tracking
+
+                Salesman App
+                ▸ App for field sales representatives
+                ▸ Manages store visit routes, order tracking, and sales reports
+
+                ECO PG App
+                ▸ App for PGs (Promotion Girls) or activation teams
+                ▸ Supports brand activation, check-in, task tracking, and report submission
+
+                ECO POS App
+                ▸ Point of Sale system
+                ▸ Helps merchants manage sales, inventory, and daily revenue from a single platform
+
+                ECO Payment App
+                ▸ Payment processing application
+                ▸ Supports card-based and contactless payment methods
+
+                ECO Delivery App
+                ▸ Delivery management tool
+                ▸ Used by couriers to handle order deliveries, status tracking, and proof of delivery
+              `}
+              webLink="https://play.google.com/store/apps/collection/cluster?gsr=SlRqGHJLcEJueGdsQ0RsSEhaR2VHMEphT2c9PbICNwoaChZ2bi5jb20uZmludmlldC5ldGlja2V0EAcSFwgBEhM2Mzk5MTUxNDg1MjQ1NTUzNzk2GAA%3D:S:ANO1ljLjZ-w&hl=vi"
+            />
+          </Col>
+
+
           <Col md={6} className="project-card">
           <ProjectCard
   imgPath={erp}

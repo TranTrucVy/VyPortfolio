@@ -8,20 +8,22 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone, I am <span className="purple">Tran Truc Vy</span>
+            Hi, I am <span className="purple">Truck Vie</span>
             <p>
+            <br></br>
            - University: Ton Duc Thang University
+           <br/>
             </p>
-            - Major 1: Computer Science (graduated 09/2024) and GPA: 8.29
+            - Major 1: Computer Science and GPA: 8.29
             <br />
-            - Major 2: Software Engineer (graduated 04/2025) and GPA: 8.35  
+            - Major 2: Software Engineer and GPA: 8.35  
             <br />
             <br></br>
             Some certificates that I have!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Scholarship in university
+              <ImPointRight /> Scholarship in university (3/6 semester)
             </li>
             <li className="about-activity">
               <ImPointRight /> GeoComply Scholarship 06/2024

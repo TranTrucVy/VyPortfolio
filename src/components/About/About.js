@@ -7,6 +7,8 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import exp from "../../Assets/exp.png";  // Đảm bảo bạn đã thêm ảnh vào thư mục Assets
+import dataquery from "../../Assets/Projects//data.png"
+
 
 function About() {
   return (
@@ -31,6 +33,8 @@ function About() {
     <br />
     {/* P căn đều hai bên */}
     <p style={{ textAlign: "justify" }}>
+    - Proficient in querying MongoDB for data validation, aggregation, and reporting tasks. 
+    <br></br>
     - Expert in designing Test cases which are clear, organized by applying the testing techniques.
     <br></br>
     - Majoring in testing (Manual and Automation) and Network & system testing skills: application, website testing, mobile testing.
@@ -41,7 +45,14 @@ function About() {
     <br></br>
     - Build up and improve automation framework: Robot Framework with Selenium2Library, Behavior Driven Development, POM, ...
     <br></br>
-    - Possess hands-on experience in key business domains, including:
+    - Experiences with projects applied CI (Continuous Integration) using Jenkins, Teamcity, ...
+    <br></br>
+    - Expert about API testing and Performance testing with some tools: JMeter, Postman …
+    <br></br>
+    - Analysis skills, requirement analysis, data processing, design testing skills, programming skills.
+    <br></br>
+    <br></br>
+    - Experience in key business domains, including:
     <br></br>
     + Banking & Finance: Expertise in implementing and testing CRM systems to enhance customer engagement.
     <br></br>
@@ -50,12 +61,6 @@ function About() {
     + Healthcare: Skilled in deploying ERP solutions for hospital management and operational efficiency.
     <br></br>
     + Entertainment & Media: Experienced in developing and managing Digital Signage systems for content delivery and advertising. 
-    <br></br>
-    - Experiences with projects applied CI (Continuous Integration) using Jenkins, Teamcity, ...
-    <br></br>
-    - Expert about API testing and Performance testing with some tools: JMeter, Postman …
-    <br></br>
-    - Analysis skills, requirement analysis, data processing, design testing skills, programming skills.
     </p>
   </Col>
   {/* 5 phần trống còn lại */}
@@ -66,6 +71,19 @@ function About() {
           <Col md={12} className="text-center">
             <img
               src={exp}
+              alt="New Image"
+              className="img-fluid"
+              style={{ maxWidth: "100%", height: "auto" }}
+            />
+          </Col>
+        </Row>
+
+        <br></br>
+
+        <Row style={{ justifyContent: "center", padding: "10px" }}>
+          <Col md={12} className="text-center">
+            <img
+              src={dataquery}
               alt="New Image"
               className="img-fluid"
               style={{ maxWidth: "100%", height: "auto" }}

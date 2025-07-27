@@ -10,7 +10,7 @@ function ProjectCards(props) {
         variant="top"
         src={props.imgPath}
         alt="card-img"
-        style={{ width: "100%", height: "200px", objectFit: "cover" }}
+        style={{ width: "100%", height: "300px", objectFit: "cover" }}
       />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
