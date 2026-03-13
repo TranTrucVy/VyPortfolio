@@ -98,7 +98,7 @@ function Projects() {
 
                 • Teamsize: 1 PM, 1PO, 1 Techlead, 6 BA, 1 Design, 5 Dev, 2 QC
               `}
-              webLink="https://play.google.com/store/apps/details?id=com.simtalk.livemate&hl=en&gl=US"
+              webLink="https://admin-portal.finviet.com.vn/khach-hang/thong-tin/cua-hang"
             />
           </Col>
 
