@@ -17,9 +17,9 @@ import dataquery from "../../Assets/Projects//data.png"
 import product_finviet from "../../Assets/Projects//product_finviet.png"
 import product_hitek from "../../Assets/Projects//product_hitek.png"
 import product from "../../Assets/Projects//product.png"
-import econguoitieudung from "../../Assets/Projects//econguoitieudung.png"
+// import econguoitieudung from "../../Assets/Projects//econguoitieudung.png"
 import ecofinviet from "../../Assets/Projects//ecofinviet.png"
-import ecotiemsohoa from "../../Assets/Projects//ecotiemsohoa.png"
+// import ecotiemsohoa from "../../Assets/Projects//ecotiemsohoa.png"
 
 
 function Projects() {
@@ -38,7 +38,7 @@ function Projects() {
           <Col md={12} className="text-center">
             <img
               src={product_finviet}
-              alt="New Image"
+              alt="NewImage"
               className="img-fluid"
               style={{ maxWidth: "100%", height: "auto" }}
             />
@@ -49,7 +49,7 @@ function Projects() {
           <Col md={12} className="text-center">
             <img
               src={product_hitek}
-              alt="New Image"
+              alt="NewImage"
               className="img-fluid"
               style={{ maxWidth: "100%", height: "auto" }}
             />
@@ -105,7 +105,7 @@ function Projects() {
           <Col md={12} className="text-center">
             <img
               src={dataquery}
-              alt="New Image"
+              alt="NewImage"
               className="img-fluid"
               style={{ maxWidth: "100%", height: "auto" }}
             />
